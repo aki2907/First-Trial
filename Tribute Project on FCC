@@ -1,0 +1,296 @@
+<html>
+  <head>
+    <title>
+      My Grandfather's Autobiography
+    </title>
+    <style>
+    body {
+      background: radial-gradient(circle,#99ffff,#ffff99,#80aaff,#ff99cc);
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Monospace;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 44px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+h2:hover{
+  background-color: #80ffbf;
+}
+img {
+  opacity: 0.5;
+}
+  img:hover {
+    opacity: 1.0;
+}
+p {
+  font-size: 28px;
+  font-family: Monospace;
+}
+
+.click {
+  font-size: 18px;
+  color: #cc00ff;
+}
+
+img {
+margin: auto;
+}
+
+.name {
+border: dashed 5px yellow;
+border-bottom-left-radius: 40px;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+margin: auto;
+margin-top: 20px;
+height: 200px;
+width: 90%;
+background-color: #ccccff;
+}
+
+.para {
+font-size: 18px;
+color: #006666;
+margin: 10px;
+text-indent: 50px;
+}
+
+.para::first-letter {
+color: red;
+font-size: xx-large;
+}
+
+.bio {
+  background-color: #eee;
+  width: 90%;
+  height: 200px;
+  border: 1px dotted black;
+  overflow: scroll;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.main {
+background-color: #cce6ff;
+margin: 10px;
+text-indent: 50px;
+}
+
+.thumbnail {
+  display: block;
+  padding: 50px 50px 10px 50px;
+  margin-left: 50px;
+  background-color: #ffff99;
+  border: 3px solid #009999;
+  border-radius: 6px;
+  width: 630px;
+  position: relative;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0%   {background-color: #ffff99; left:50px;}
+  50%  {background-color: #33ffff; left:600px;}
+  100% {background-color: #ffff99; left:50px;}
+}
+
+.caption-text-center {
+color: #ff7733;
+font-size: 18px;
+text-align: center;
+}
+
+.intro {
+width: 800px;
+height: 50px;
+position: relative;
+background-color: #cce6ff;
+animation-name: dance;
+animation-duration: 10s;
+animation-delay: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes dance {
+  0%   {background-color: #cce6ff; left:0px; top:0px;}
+  25%  {background-color: #ff6666; left:0px; top:170px;}
+  50%  {background-color: green; left:500px; top:170px;}
+  75%  {background-color: yellow; left:500px; top:0px;}
+  100% {background-color: #cce6ff; left:0px; top:0px;}
+}
+
+h3 {
+color: #006600;
+font-family: cursive;
+border: 20px solid #993366;
+border-radius: 10px;
+height: 100px;
+width: 400px;
+margin: 30px 40px;
+padding: 12px;
+background: #1aff66;
+transition: width 3s ease-in-out;
+}
+
+h3:hover {
+width: 1000px;
+background: #6699ff;
+}
+
+.equ {
+height: 100px;
+width: 200px;
+margin: 20px 30px;
+padding: 5px 25px;
+border-radius: 15px;
+border: 5px blue solid;
+text-align:center;
+box-shadow: 10px 10px 5px red;
+background-color: #00e6ac;
+transform: rotate(15deg);
+}
+
+table, th, td {
+border: 5px green solid;
+text-align: center;
+margin-top: 30px;
+margin-left: 50px;
+margin-right: 60px;
+margin-bottom: 20px;
+padding: 5px;
+animation-name: example;
+animation-duration: 10s;
+}
+
+table {
+width: 90%;
+}
+
+th {
+font-size: 42px;
+font-family: cursive;
+color: #00ffcc;
+}
+
+td {
+font-size: 24px;
+font-family: Verdana;
+color: pink;
+}
+
+th, td {
+background-color: purple;
+}
+@keyframes example {
+from {background-color: purple;}
+to {background-color: #006699;}
+}
+
+caption {
+font-size: 42px;
+text-align: center;
+color: #ff0066;
+text-shadow: 3px 3px 5px blue, 0 0 10px green;
+transition: background 2s, transform 2s;
+}
+caption:hover {
+transform: rotate(360deg);
+}
+input:focus {
+background-color: lightblue;
+}
+    </style>
+  </head>
+  <body>
+<div style="text-align: center" class="name">
+<h1 style="color:green">Lt. shri brij bihari dubey</h1>
+<p style="color:red">Freedom Fighter of Rohtas (Bihar)</p>
+</div>
+<h2 style="color:#3366cc">Indian Independence War</h2>
+    <div class="thumbnail">
+    <img src="http://freedomfightersofrohtas.weebly.com/uploads/3/0/3/8/30382545/6910697_orig.jpg">
+      <div class="caption-text-center">Lt. Shri Brij Bihari Dubey,<br> Convenor, Rohtas District Freedom Fighter Vestibule (Congress)
+      </div>
+    </div>
+    <p class="main" style="color:#994d00"> The <code>contents</code> are based on a book "<strong>Bharatiya Swatantrata Sangram aur Rohtas Jila</strong> (<em>Ek Aitihasik Paridrishya</em>)" by <MARK>Lt. Brij Bihari Dubey</MARK> published in <q>August 1987</q>.</p>
+   <table>
+     <caption>Contributors of the Book</caption>
+      <tr>
+        <th>Name</th>
+        <th>Contribution</th>
+        <th>Address</th>
+     </tr>
+     <tr>
+       <td>Lt. Brij Bihari Dubey</td>
+       <td>Publisher</td>
+       <td>Durgapur</td>
+     </tr>
+     <tr>
+       <td>Shri Gorakhnath 'Vimal'</td>
+       <td>Writer</td>
+       <td>Dehri</td>
+     </tr>
+     <tr>
+       <td>Lt. Dr. Janardan Upadhyay</td>
+       <td>Editor</td>
+       <td>Varanasi</td>
+     </tr>
+     <tr>
+       <td>Lt. Lakshmi Narayan Singh</td>
+       <td>Editor</td>
+       <td>Dehri</td>
+     </tr>
+     <tr>
+       <td>Babulal Jain Fagull</td>
+       <td>Printer</td>
+       <td>Mahavir Press, Bhelupur, Varanasi</td>
+     </tr>
+   </table>
+<p class="para">The Indian independence movement consisted of efforts by Indians to obtain political independence from British, French and Portuguese rule; it involved a wide spectrum of Indian political organizations, philosophies, and rebellions between 1857 and India's independence on August 15, 1947. Bihar’s role in Independence movement is very important. Mahatama Gandhi made his initial forays into Indian National Movement at Champaran Satyagraha. There are several great people and leaders who struggled for India's independence.</p>
+<ol>
+  <li>Dr. Rajendra Prasad</li>
+  <li>Raj Kumar Shukla</li>
+  <li>Brajkishore Prasad</li>
+  <li>Anugrah Narayan Sinha</li>
+  <li>Jai Prakash Narayan</li>
+</ol>
+    <p class="para">These are some of the promiment leaders from Bihar who played a major role in Indian freedom struggle. According to the Union Home Ministry report, Bihar has the highest number of Freedom Fighters in the country.</p>
+
+<p style="text-indent:30px" class="intro">Here's a timeline of Lt. Brij Bihari Dubey</p>
+<ul>
+  <li>28 May 1925 - Born in Durgapur, Dehri</li>
+  <li>1987 - Coordinator of Rohtas District Freedom Fighter Cell Congress (E)</li>
+  <li>15 August 1972 - Honored with a Copper Plate (Tamrpatra) on the occasion of 25th Independence Day for his memorable contribution in India's Freedom Struggle by the Prime Minister Lt. Indira Gandhi on behalf of the nation.</li>
+  <li>25 July 1990 - Died in Dehri, Bihar</li>
+</ul>
+    <div class="bio">
+    <p class="para">He was born in an aristrocratic brahmin family of Durgapur. His father was a very religious person and a well known zameendaar of the village. Being the only child of his parents, he was raised with great love and pampering.</p>
+
+<p class="para">After completing his early education from school, he was enrolled in Tilauthu High School. But the patriotism which stimulated in his heart during the study period kept on increasing day by day. Since he was totally overwhelmed with national feelings, his studies got scattered. During his student life in adolescence, he joined student congress movement. He aligned himself as a sharp delegate in the Jagdishpur (Birthland of Babu Kunwar Singh) session of Shahabad district student congress. Since then, his activity kept growing. Consequently, he became a popular student leader in a very short span of time.
+</p>
+<p class="para">He was elected as the President of Sasaram Tehsil student congress session organised in the courtyard of Premnagar (Baank) School. Thereafter, he engaged himself as a revolutionary student leader in the service of country. Meanwhile, the blaze of revolt kept smoldering inside his revolutionary mind against the British imperialism, which got ignited after influenced by inspirational leadership of Mahatma Gandhi and Pt. Jawahar Lal Nehru; and he became a supporter of armed revolution just after entering Congress. After leaving Congress before the revolution of 1942, he was very impressed with the revolutionary energetic speech of brave Subhash on his visit to Dehri, but he didn't seperated himself from the leadership of Gandhiji. It was the result of his wonderful work ingenuity and organisation power that an indomitable youth power became active in his leadership. Against the arrest of Mahatma Gandhi and other national leaders, a spirit of fierce rage and revolt erupted in this area also; and first of all, there was a mass strike at Tilauthu High School and the Post office was burned. You, with your colleagues, kept on roaming periodically in different villages located in hilly areas to spread the flame of revolt. In this way, he organised rebellion while hiding himself for more than two & half months. He kept on meeting various leaders in the underground stage and kept on determining the programs accordingly while analyzing the conditions at the same time. With the aim of the suppression of the Rapid movement, despite the dominant interest of the founders and directors of Tilauthu High School, he could not come to the grips of the police. But on 28 Oct 1942, he was arrested along with other underground associates while lounging in the Margohi Ashram and he was punished in the court of second magistrate Shri Jafar of Sasaram with 3 years of rigorous imprisonment and a fine of 500 rupees or 9 months of rigorous imprisonment and all of them were sent to Patna prison camp. At the same time, after the escape of Loknayak Jaiprakash Narayan from Hazaribag jail, few people who fled away from Patna prison camp also were arrested again. After being released from jail, with the inspiration of Lt. Dr. Ramsubhag Singh, he entered Kashi Vidyapeeth for the purpose of special studies. But due to his cultured campaignism, he could not be stabled and again in 1946 before the partition of India, he went to Rawalpindi where the work of bringing weapons from the military camp was done. One of his colleagues was arrested while bringing weapons from there, but despite of million temptations and torture given by police, he did not disclose the name of other partners, and finally he was released after the intervention of Dr. Sampoornanand.
+</p>
+<p class="para">He epitomizes the devotion towards the country and public service. The current political situation is that the theoretical and conceptual differences become unbearable for the people. But despite such differences, maintaining traditional cordiality and affinity in personal and social life was his inherent characteristic. His heart was literally immeasurable ocean of affection, love and warmth. He was a dedicated senior activist of Congress. Despite of being physically extremely weak, mentally he was continuously alert and active.
+</p>
+<p class="para">He was the coordinator of Rohtas District Freedom Fighter Cell Congress (E) in 1987. He was getting Freedom Fighter honor pension till he was alive i.e. 25 July 1990 and was given to his wife Lt. Satyawati Dubey till she was alive i.e. 9 June 2010. He was also honored with a Copper Plate (Tamrpatra) on the occasion of 25th Independence Day (15 August 1972) for his memorable contribution in India's Freedom Struggle by the Prime Minister Lt. Indira Gandhi on behalf of the nation. He died on 25 July 1990.</p>
+    </div>
+    <p class="click">If you have time, you should read more about this incredible human being <a href="http://freedomfightersofrohtas.weebly.com/about.html" target="_blank">Here</a>.</p>
+      <p class="click">Click <a href="http://www.freedomfightersofrohtas.weebly.com" target="_blank">Here</a>  to know more about other Freedom Fighters of Rohtas.</p>
+
+<p>Written and coded by <a href="http://freedomfightersofrohtas.weebly.com/" target="_blank">Akanksha</a>.</p>
+  </footer>
+    </body>
+
+
+
+</html>
